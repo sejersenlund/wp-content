@@ -88,8 +88,7 @@ if ( $description || is_customize_preview() ) :
 </div><!-- #page -->
 <?php wp_footer(); ?>
 
-<?php 
-    //Tilføjelse af the_content for at muliggøre Elementor Edit
+<?php //For at muliggøre Elementor Pro, skal denne linje tilføjes. Guide fundet på https://developer.wordpress.org/reference/functions/the_content/
 the_content(); ?> 
 
 </body></html>
